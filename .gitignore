@@ -1,0 +1,31 @@
+# Build
+.vs/
+bin/
+obj/
+out/
+publish/
+
+# IDE / User
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.idea/
+*.rsuser
+
+# Logs
+*.log
+logs/
+
+# Secrets & env
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+appsettings.Production.json
+secrets.json
+**/secrets.json
+
+# OS
+Thumbs.db
+.DS_Store
